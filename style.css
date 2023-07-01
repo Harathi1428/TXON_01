@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+body{
+    background-image: url(back2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    }
+    #har{
+        width: 500px;
+        height: 600px;
+        position: relative;
+        top: -44px;
+    }
+   #hh #har h1{
+        text-transform: capitalize;
+        color: white;
+        padding-top: 70px;
+        padding-left: 50px;
+        font-size:50px;
+    }
+    #har p{
+        font-size:25px;
+        color:lavenderblush;
+        padding-left: 40px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: bold;
+    }
+    #har #btn{
+        width:120px;
+        height: 30px;
+    margin-top: 20px;
+        margin-left: 150px;
+        border-color: gold;
+        background-color: gold;
+        box-shadow: 20px;
+    }
+    #har #btn:hover{
+        background-color:rgb(255, 153, 0);
+    }
+    #hh{
+        display:flex;
+        justify-content: center;
+    }
+    
+ #nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 0)
+}
+#nav h1{
+    padding-left: 30px;
+}
+#nav #pp{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#nav #pp a{
+    text-decoration: none;
+    text-transform: capitalize;
+justify-content: right;
+padding-left: 50px;
+color: white;
+font-size: 20px;
+} 
+#nav #pp a:hover{
+    color: #daa520;
+    font-size: 30px;
+}
